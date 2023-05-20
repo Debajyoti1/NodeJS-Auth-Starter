@@ -1,0 +1,23 @@
+<div class="row mt-5">
+    <div class="col-md-6 m-auto"  style="max-width: 500px;">
+        <div class="card card-body">
+            <h1 class="mb-3 text-center">
+                <img src="/images/login-icon.png" alt="icon" width="20%" />
+            </h1>
+            <h2 class="text-center">
+                Forgot Password
+            </h2>
+            <%- include ("./messages.ejs") %>
+            <form action="/auth/forgot" method="POST">
+                <div class="form-group mt-2 mb-2">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Enter Email" />
+                </div>
+                <button type="submit" class="btn btn-primary btn-block mb-2">Send me a password reset link</button>
+            </form>
+            <p class="mt-4">
+                Remember your password? <a href="/auth/login">Login</a>
+            </p>
+        </div>
+    </div>
+</div>

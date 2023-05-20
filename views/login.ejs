@@ -1,0 +1,26 @@
+<div class="row mt-5">
+    <div class="col-md-6 m-auto card card-body" style="max-width: 500px;">
+        <form action="/auth/login" method="POST">
+            <h1 class="text-center"><img src="/images/login-icon.png" alt="icon" width="20%" /></h1>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" required class="form-control" id="email" name="email" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" required class="form-control" id="password" name="password">
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+        <p class="mt-4">
+            New User? <a href="/auth/register">Register</a>
+        </p>
+        <p>
+            Forgot Password? <a href="/auth/forgot">Reset</a>
+        </p>
+        <p>
+            <a href="/auth/google">Google Sign In</a>
+        </p>
+    </div>
+</div>

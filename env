@@ -1,0 +1,11 @@
+PORT=8000
+MONGOOSE_URI=
+SECRET=
+GOOGLE_AUTH_CLIENT_ID=
+GOOGLE_AUTH_CLIENT_SECRET=
+
+gmail_oauth_id=
+gmail_oauth_secret=
+gmail_oauth_redirect_url=
+gmail_oauth_refresh_token=
+gmail_oauth_gmailid=
