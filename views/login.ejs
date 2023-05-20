@@ -1,4 +1,4 @@
-<div class="row mt-5">
+<div class="row mt-1">
     <div class="col-md-6 m-auto card card-body" style="max-width: 500px;">
         <form action="/auth/login" method="POST">
             <h1 class="text-center"><img src="/images/login-icon.png" alt="icon" width="20%" /></h1>
@@ -11,7 +11,8 @@
                 <label for="exampleInputPassword1" class="form-label">Password</label>
                 <input type="password" required class="form-control" id="password" name="password">
             </div>
-            <button type="submit" class="btn btn-primary">Login</button>
+            <div class="g-recaptcha mb-2" data-sitekey="6LcylSYmAAAAAKx06RZypkPIN2gHtlSAHg7anUXB" data-callback="enableLoginButton"></div>
+            <button type="submit" class="btn btn-primary" id="loginButton" disabled>Login</button>
         </form>
         <p class="mt-4">
             New User? <a href="/auth/register">Register</a>
