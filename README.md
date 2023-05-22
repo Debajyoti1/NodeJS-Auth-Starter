@@ -22,7 +22,7 @@ A complete NodeJS + Express + PassportJS + JWT authentication app:
 
 ## Folder Structure
 
-assets<br>
+`assets<br>
    |-- images<br>
    |   |-- login-icon.png<br>
 configs<br>
@@ -55,7 +55,7 @@ views<br>
    |-- messages.ejs<br>
    |-- register.ejs<br>
    |-- reset.ejs<br>
-
+`
 
 ##### Into the project directory
 
